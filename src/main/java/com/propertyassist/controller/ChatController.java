@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/chat")
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "https://propertyassist-frontend.vercel.app"
+        "https://propertyassist-ai-chatbot.vercel.app"
 })
 public class ChatController {
 
